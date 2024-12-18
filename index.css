@@ -636,3 +636,53 @@ footer {
   bottom: 1rem;
   font-size: 1.3rem;
 }
+
+.sc6{
+    padding: 1.5rem 2.5rem 5rem 2.5rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px gray;
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 1rem;
+    position: relative;
+
+    h1{
+        margin-bottom: 1rem ;
+    }
+}
+
+.sc6_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sc6_inner_item{
+    width: 400px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+   
+    gap: 1rem;
+
+    img{
+        width: 80px;
+        height: 80px;
+        /* border-radius: 100% */
+    }
+
+    div {
+
+        h1{
+            color:#0047af;
+            font-size: 2rem;
+            
+        }
+        span{
+            font-size: 1.2rem;
+        }
+    }
+}
